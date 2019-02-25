@@ -1,0 +1,51 @@
+{
+  "name": "Single Sided Borders",
+  "id": "36d0be71",
+  "author": "Craig Dennis",
+  "version":"1.0.0",
+  "description":"Automatically use stroke gap and stroke offset to give rectangular shapes single sided borders.",
+  "icons":[
+    {
+      "width":96,
+      "height":96,
+      "path":"images/icon.png"
+    }
+  ],
+  "host":{
+    "app":"XD",
+    "minVersion":"13.0.0"
+  },
+  "uiEntryPoints":[
+    {
+      "type":"menu",
+      "label":"Single Sided Borders",
+      "menuItems": [
+        {
+          "type":"menu",
+          "label":"Border Top",
+          "commandId": "BorderTop"
+        },
+        {
+          "type":"menu",
+          "label":"Border Right",
+          "commandId": "BorderRight"
+        },
+        {
+          "type":"menu",
+          "label":"Border Bottom",
+          "commandId": "BorderBottom"
+        },
+        {
+          "type":"menu",
+          "label":"Border Left",
+          "commandId": "BorderLeft"
+        },
+        {
+          "type":"menu",
+          "label":"Reset",
+          "commandId": "BorderReset"
+        }
+      ]
+    }
+  ]
+}
